@@ -1,0 +1,468 @@
+[
+    {
+        "name": "Getting started with rust LFEL1002",
+        "org": "The Linux Foundation",
+        "issueDate": "2023-01-01",
+        "expiryDate": "2024-10-01",
+        "skills": [
+            "Rust"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "https://example.com/credential-1",
+        "mediaUrl": "https://example.com/media-1",
+        "logoUrl": "/home/jasson/github-projects/JassonCordones.github.io/assets/images/org-ph.webp"
+    },
+    {
+        "name": "Academy Accreditation - Databricks Lakehouse Fundamentals",
+        "org": "Databricks",
+        "issueDate": "2024-08-01",
+        "expiryDate": "2025-08-01",
+        "skills": [
+            "Databricks machine learning",
+            "Databricks",
+            "Lakehouse",
+            "Delta lake",
+            "Security"
+        ],
+        "credentialId": "111317374",
+        "credentialUrl": "https://credentials.databricks.com/8bb03679-a383-47c5-a283-f5927132bd00",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "How to Manage a Remote Team",
+        "org": "GitLab",
+        "issueDate": "2024-07-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Team Management",
+            "Remote work",
+            "Remote organizations"
+        ],
+        "credentialId": "NRRXGYSUWUEN",
+        "credentialUrl": "https://www.coursera.org/account/accomplishments/records/NRRXGYSUWUEN",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "C++17: Beyond the basics",
+        "org": "Pluralsight",
+        "issueDate": "2024-05-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "C++",
+            "Software Engineering"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "Reading legacy c++",
+        "org": "Pluralsight",
+        "issueDate": "2024-05-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "C++",
+            "Software Engineering"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "practical c++14 and c++17 features",
+        "org": "Pluralsight",
+        "issueDate": "2024-05-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "C++",
+            "Software Engineering"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "C++ Fundamentals including c++17",
+        "org": "Pluralsight",
+        "issueDate": "2024-04-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "C++",
+            "Software Engineering"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "Learn to program with C++17",
+        "org": "Pluralsight",
+        "issueDate": "2024-03-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "C++",
+            "Software Engineering"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "Microsoft Learn AI Skills Challenge",
+        "org": "Microsoft",
+        "issueDate": "2023-08-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Microsoft Azure",
+            "Artificial Intelligence (AI)"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "Ecosistemas de tecnologías. Introducción a las nuevas tecnologías disruptivas",
+        "org": "Organización de los Estados Americanos",
+        "issueDate": "2023-07-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Data analysis",
+            "Machine Learning",
+            "Artificial Intelligence (AI)"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "Inteligencia artificial",
+        "org": "Organización de los Estados Americanos",
+        "issueDate": "2023-07-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Data Science",
+            "Data analysis",
+            "Machine Learning",
+            "Artificial Intelligence (AI)"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "Getting Help with PowerShell",
+        "org": "Pluralsight",
+        "issueDate": "2022-04-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Powershell",
+            "Shell Scripting"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "Installing and Running PowerShell",
+        "org": "Pluralsight",
+        "issueDate": "2022-04-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Powershell",
+            "Shell Scripting"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "Jira 8 Project Customization",
+        "org": "Pluralsight",
+        "issueDate": "2022-04-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Project Management",
+            "Project Planning",
+            "Jira",
+            "Agile Methodologies"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "Putting PowerShell to Work",
+        "org": "Pluralsight",
+        "issueDate": "2022-04-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Powershell",
+            "Shell Scripting"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "JIRA Fundamentals",
+        "org": "Pluralsight",
+        "issueDate": "2022-03-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Project Management",
+            "Project Planning",
+            "Jira",
+            "Agile Methodologies"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "JavaScript Arrays and Collections",
+        "org": "Pluralsight",
+        "issueDate": "2022-03-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Object-Oriented Programming (OOP)",
+            "Javascript"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "Jira 8: Getting Started",
+        "org": "Pluralsight",
+        "issueDate": "2022-03-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Project Management",
+            "Project Planning",
+            "Jira",
+            "Agile Methodologies"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "JavaScript Objects, Prototypes, and Classes",
+        "org": "Pluralsight",
+        "issueDate": "2022-02-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Object-Oriented Programming (OOP)",
+            "Javascript"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "JavaScript Syntax and Operators",
+        "org": "Pluralsight",
+        "issueDate": "2022-02-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Object-Oriented Programming (OOP)",
+            "Javascript"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "JavaScript Variables and Types",
+        "org": "Pluralsight",
+        "issueDate": "2022-02-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Object-Oriented Programming (OOP)",
+            "Javascript"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "JavaScript: Functions",
+        "org": "Pluralsight",
+        "issueDate": "2022-02-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Object-Oriented Programming (OOP)",
+            "Javascript"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "JavaScript: Getting Started",
+        "org": "Pluralsight",
+        "issueDate": "2022-02-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Object-Oriented Programming (OOP)",
+            "Javascript"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "N/A",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "Introduction to Power BI",
+        "org": "DataCamp",
+        "issueDate": "2022-01-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Microsoft Power Bi, Data Analysis"
+        ],
+        "credentialId": "22,080,670",
+        "credentialUrl": "https://www.datacamp.com/statement-of-accomplishment/course/bba0061d31639766c38a09646d43d2fd32ae86bc",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "Cluster Analysis in Python",
+        "org": "DataCamp",
+        "issueDate": "2021-12-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Apache Spark",
+            "Data Science",
+            "Data analysis",
+            "Python",
+            "Cluster Analysis"
+        ],
+        "credentialId": "22,080,670",
+        "credentialUrl": "https://www.datacamp.com/statement-of-accomplishment/course/408b652cccf7ac5672d706003792fd2dfddc4f60",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },{
+        "name": "Logistics and Supply Chain Management",
+        "org": "Quality Global Business",
+        "issueDate": "2014-08-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Warehouse Management",
+            "Microsoft Excel",
+            "Planning Budgeting & Forecasting"
+        ],
+        "credentialId": "SD03-28062014",
+        "credentialUrl": "https://www.datacamp.com/statement-of-accomplishment/course/408b652cccf7ac5672d706003792fd2dfddc4f60",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },{
+        "name": "Project Management and Execution",
+        "org": "Quality Global Business",
+        "issueDate": "2014-07-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Project Management",
+            "Project Planning"
+        ],
+        "credentialId": "DDEP-SD04-07042014",
+        "credentialUrl": "https://www.datacamp.com/statement-of-accomplishment/course/408b652cccf7ac5672d706003792fd2dfddc4f60",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },{
+        "name": "TOEFL iBT",
+        "org": "ETS",
+        "issueDate": "2013-12-01",
+        "expiryDate": "2015-12-01",
+        "skills": [
+            "English"
+        ],
+        "credentialId": "N/A",
+        "credentialUrl": "",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    }, {
+        "name": "Intoduction to math prilosophy",
+        "org": "Coursera",
+        "issueDate": "2013-10-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Philosophy"
+        ],
+        "credentialId": "",
+        "credentialUrl": "",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    }, {
+        "name": "Criptography I",
+        "org": "Coursera",
+        "issueDate": "2012-12-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Vulnerability Assessment"
+        ],
+        "credentialId": "",
+        "credentialUrl": "",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "Introduction to Operations Management",
+        "org": "Coursera",
+        "issueDate": "2012-11-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Production Management"
+        ],
+        "credentialId": "",
+        "credentialUrl": "",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },{
+        "name": "Principles of obesity Economics",
+        "org": "Coursera",
+        "issueDate": "2012-11-01",
+        "expiryDate": "N/A",
+        "skills": [
+            "Public policy",
+            "Health Econimics"
+        ],
+        "credentialId": "",
+        "credentialUrl": "",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    },
+    {
+        "name": "DELF B1",
+        "org": "Centre International d'Etudes Pedagogiques (CIEP)",
+        "issueDate": "2011-05-01",
+        "expiryDate": "2011-05-01",
+        "skills": [
+            "French"
+        ],
+        "credentialId": "",
+        "credentialUrl": "",
+        "mediaUrl": "https://example.com/media-2",
+        "logoUrl": "https://example.com/logo2.png"
+    }
+]

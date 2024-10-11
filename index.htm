@@ -8,13 +8,14 @@
     <title>Jasson - Personal Landing Page</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
     <script src="javascript/email-protection.js" defer></script>
+    <script src="javascript/main.js" defer></script>
 </head>
 
 <body>
     <header>
         <section id="header">
             <div class="profile">
-                <img src="images/profile.jpg" alt="Jasson's Profile Picture" class="profile-pic">
+                <img src="assets/images/profile.jpg" alt="Jasson's Profile Picture" class="profile-pic">
                 <h1>Jasson Cordones</h1>
                 <p>Industrial Engineer | Project Manager |Software Developer | Machine Learning Expert</p>
             </div>
@@ -35,15 +36,29 @@
         <p>Programing Languages: I'm most proficient in C++, Python and Javascript but I also have basic knowledge of C#, Go, R, Rust and other</p>
     </section>
 
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-            <li>Software Development</li>
-            <li>Machine Learning</li>
-            <li>Data Analysis</li>
-            <!-- Add more skills -->
-        </ul>
+    <section id="courses">
+        <h2>Courses Attended</h2>
+        <div id="course-counter">Total Courses: <span id="course-count">0</span></div>
+        <!-- Search, Filter, and Controls -->
+        <div class="controls">
+            <input type="text" id="search-bar" placeholder="Search by name, organization, or skill">
+            <select id="filter-skill">
+                <option value="">Filter by Skill</option>
+            </select>
+            <button id="toggle-view">Toggle View (Grid/List)</button> <!-- TODO: Fix list-view -->
+            <select id="sort-courses">
+                <option value="name">Sort by Name</option>
+                <option value="organization">Sort by Organization</option>
+                <option value="issue-date">Sort by Issue Date</option>
+            </select>
+        </div>
+
+        <!-- Grid/List View -->
+        <div id="courses-container" class="grid-view">
+            <!-- Courses will be rendered here -->
+        </div>
     </section>
+    
 
     <section id="portfolio">
         <h2>Open Source Projects</h2>
@@ -57,10 +72,16 @@
     <section id="contact">
         <h2>Contact Info</h2>
         <p>Email: <span id="email-protected" class="clickable">click to show</span></p>
+        <br>
         <p>Socials:
-            <a href="https://github.com/jassoncordones" target="_blank">GitHub</a> |
-            <a href="https://linkedin.com/in/jassoncordones" target="_blank">LinkedIn</a> |
-            <a href="https://mastodon.social/@jassoncordones" target="_blank">Mastodon</a>
+            <ul>
+                <li><a href="https://github.com/jassoncordones" target="_blank">GitHub</a></li>
+                <li><a href="https://linkedin.com/in/jassoncordones" target="_blank">LinkedIn</a></li>
+                <li><a href="https://mastodon.social/@jassoncordones" target="_blank">Mastodon</a></li>
+                <li><a href="https://app.pluralsight.com/profile/jasson-cordones-d3" target="_blank">Pluralsight</a></li>
+                <li><a href="https://www.datacamp.com/portfolio/jassonc" target="_blank">Datacamp</a></li>
+                <li><a href="https://tryhackme.com/r/p/Jassonc" target="_blank">Tryhackme</a></li>
+            </ul>
         </p>
     </section>
 
