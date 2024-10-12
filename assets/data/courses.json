@@ -10,7 +10,7 @@
         "credentialId": "N/A",
         "credentialUrl": "https://example.com/credential-1",
         "mediaUrl": "https://example.com/media-1",
-        "logoUrl": "/home/jasson/github-projects/JassonCordones.github.io/assets/images/org-ph.webp"
+        "logoUrl": "https://jassoncordones.github.io/assets/images/"
     },
     {
         "name": "Academy Accreditation - Databricks Lakehouse Fundamentals",
@@ -56,7 +56,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "../assets/images/logos/pluralsight/logo.png"
+        "logoUrl": "https://jassoncordones.github.io/assets/images/logos/pluralsight/logo.png"
     },
     {
         "name": "Reading legacy c++",
