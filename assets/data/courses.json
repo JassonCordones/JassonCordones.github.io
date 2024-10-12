@@ -10,7 +10,7 @@
         "credentialId": "N/A",
         "credentialUrl": "https://example.com/credential-1",
         "mediaUrl": "https://example.com/media-1",
-        "logoUrl": "https://jassoncordones.github.io/assets/images/"
+        "logoUrl": "../assets/images/logos/org-ph.png"
     },
     {
         "name": "Academy Accreditation - Databricks Lakehouse Fundamentals",
@@ -27,7 +27,7 @@
         "credentialId": "111317374",
         "credentialUrl": "https://credentials.databricks.com/8bb03679-a383-47c5-a283-f5927132bd00",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/org-ph.png"
     },
     {
         "name": "How to Manage a Remote Team",
@@ -42,7 +42,7 @@
         "credentialId": "NRRXGYSUWUEN",
         "credentialUrl": "https://www.coursera.org/account/accomplishments/records/NRRXGYSUWUEN",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/org-ph.png"
     },
     {
         "name": "C++17: Beyond the basics",
@@ -56,7 +56,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://jassoncordones.github.io/assets/images/logos/pluralsight/logo.png"
+        "logoUrl": "../assets/images/logos/pluralsight/logo.png"
     },
     {
         "name": "Reading legacy c++",
@@ -126,7 +126,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/org-ph.png"
     },
     {
         "name": "Ecosistemas de tecnologías. Introducción a las nuevas tecnologías disruptivas",
@@ -141,7 +141,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/org-ph.png"
     },
     {
         "name": "Inteligencia artificial",
@@ -157,7 +157,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/org-ph.png"
     },
     {
         "name": "Getting Help with PowerShell",
@@ -375,7 +375,7 @@
         "credentialId": "SD03-28062014",
         "credentialUrl": "https://www.datacamp.com/statement-of-accomplishment/course/408b652cccf7ac5672d706003792fd2dfddc4f60",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/org-ph.png"
     },{
         "name": "Project Management and Execution",
         "org": "Quality Global Business",
@@ -388,7 +388,7 @@
         "credentialId": "DDEP-SD04-07042014",
         "credentialUrl": "https://www.datacamp.com/statement-of-accomplishment/course/408b652cccf7ac5672d706003792fd2dfddc4f60",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/org-ph.png"
     },{
         "name": "TOEFL iBT",
         "org": "ETS",
@@ -400,7 +400,7 @@
         "credentialId": "N/A",
         "credentialUrl": "",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/org-ph.png"
     }, {
         "name": "Intoduction to math prilosophy",
         "org": "Coursera",
@@ -463,6 +463,6 @@
         "credentialId": "",
         "credentialUrl": "",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/org-ph.png"
     }
 ]

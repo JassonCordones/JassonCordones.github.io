@@ -118,8 +118,8 @@ nav ul li {
 }
 
 .course-card img {
-    width: 100px;
-    height: auto; /* Responsive logo size */
+    width: 64px;
+    height: 64px; /* set to auto for Responsive logo size */
 }
 
 .course-details h3 {
