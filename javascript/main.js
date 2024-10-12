@@ -28,6 +28,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const courseCard = document.createElement('div');
             courseCard.classList.add('course-card');
             courseCard.innerHTML = `
+            <img src="${course.logoUrl}" alt="Organization Logo">
             <div class="course-details">
             <h3>${course.name}</h3>
             <p><strong>Issuing Organization:</strong> ${course.org}</p>
@@ -38,7 +39,6 @@ document.addEventListener("DOMContentLoaded", function () {
             <a href="${course.credentialUrl}" target="_blank">View Credential</a>
             <a href="${course.mediaUrl}" target="_blank">Relevant Documents</a>
             </div>
-            <img src="${course.logoUrl}" alt="Organization Logo">
             `;
             coursesContainer.appendChild(courseCard);
         });
@@ -50,7 +50,8 @@ document.addEventListener("DOMContentLoaded", function () {
         courses.forEach(course => {
             course.skills.forEach(skill => skills.add(skill));
         });
-        skills.forEach(skill => {
+        const sortedSkills = Array.from(skills).sort(); // Sort skills alphabetically
+        sortedSkills.forEach(skill => {
             const option = document.createElement('option');
             option.value = skill;
             option.textContent = skill;

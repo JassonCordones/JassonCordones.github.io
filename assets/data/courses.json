@@ -56,7 +56,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/pluralsight/logo.png"
     },
     {
         "name": "Reading legacy c++",
@@ -70,7 +70,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/pluralsight/logo.png"
     },
     {
         "name": "practical c++14 and c++17 features",
@@ -84,7 +84,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/pluralsight/logo.png"
     },
     {
         "name": "C++ Fundamentals including c++17",
@@ -98,7 +98,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/pluralsight/logo.png"
     },
     {
         "name": "Learn to program with C++17",
@@ -112,7 +112,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/pluralsight/logo.png"
     },
     {
         "name": "Microsoft Learn AI Skills Challenge",
@@ -171,7 +171,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/pluralsight/logo.png"
     },
     {
         "name": "Installing and Running PowerShell",
@@ -185,7 +185,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/pluralsight/logo.png"
     },
     {
         "name": "Jira 8 Project Customization",
@@ -201,7 +201,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/pluralsight/logo.png"
     },
     {
         "name": "Putting PowerShell to Work",
@@ -215,7 +215,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/pluralsight/logo.png"
     },
     {
         "name": "JIRA Fundamentals",
@@ -231,7 +231,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/pluralsight/logo.png"
     },
     {
         "name": "JavaScript Arrays and Collections",
@@ -245,7 +245,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/pluralsight/logo.png"
     },
     {
         "name": "Jira 8: Getting Started",
@@ -261,7 +261,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/pluralsight/logo.png"
     },
     {
         "name": "JavaScript Objects, Prototypes, and Classes",
@@ -275,7 +275,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/pluralsight/logo.png"
     },
     {
         "name": "JavaScript Syntax and Operators",
@@ -289,7 +289,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/pluralsight/logo.png"
     },
     {
         "name": "JavaScript Variables and Types",
@@ -303,7 +303,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/pluralsight/logo.png"
     },
     {
         "name": "JavaScript: Functions",
@@ -317,7 +317,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/pluralsight/logo.png"
     },
     {
         "name": "JavaScript: Getting Started",
@@ -331,7 +331,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/pluralsight/logo.png"
     },
     {
         "name": "Introduction to Power BI",
@@ -344,7 +344,7 @@
         "credentialId": "22,080,670",
         "credentialUrl": "https://www.datacamp.com/statement-of-accomplishment/course/bba0061d31639766c38a09646d43d2fd32ae86bc",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/datacamp/logo.svg"
     },
     {
         "name": "Cluster Analysis in Python",
@@ -361,7 +361,7 @@
         "credentialId": "22,080,670",
         "credentialUrl": "https://www.datacamp.com/statement-of-accomplishment/course/408b652cccf7ac5672d706003792fd2dfddc4f60",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/datacamp/logo.svg"
     },{
         "name": "Logistics and Supply Chain Management",
         "org": "Quality Global Business",
