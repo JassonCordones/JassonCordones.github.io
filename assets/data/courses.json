@@ -412,7 +412,7 @@
         "credentialId": "",
         "credentialUrl": "",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/coursera/svg/coursera-logo-full-rgb.svg"
     }, {
         "name": "Criptography I",
         "org": "Coursera",
@@ -424,7 +424,7 @@
         "credentialId": "",
         "credentialUrl": "",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/coursera/svg/coursera-logo-full-rgb.svg"
     },
     {
         "name": "Introduction to Operations Management",
@@ -437,7 +437,7 @@
         "credentialId": "",
         "credentialUrl": "",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/coursera/svg/coursera-logo-full-rgb.svg"
     },{
         "name": "Principles of obesity Economics",
         "org": "Coursera",
@@ -450,7 +450,7 @@
         "credentialId": "",
         "credentialUrl": "",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "https://example.com/logo2.png"
+        "logoUrl": "../assets/images/logos/coursera/svg/coursera-logo-full-rgb.svg"
     },
     {
         "name": "DELF B1",
