@@ -9,10 +9,13 @@
     <link rel="stylesheet" href="stylesheets/styles.css">
     <script src="javascript/email-protection.js" defer></script>
     <script src="javascript/main.js" defer></script>
+    <script src="javascript/fetchProjects.js" defer></script>
+
 
     <!-- Open Graph -->
     <meta property="og:title" content="Jasson - Engineer Portfolio">
-    <meta property="og:description" content="Explore Jasson's experience, skills, and projects in software development, machine learning, and cybersecurity.">
+    <meta property="og:description"
+        content="Explore Jasson's experience, skills, and projects in software development, machine learning, and cybersecurity.">
     <meta property="og:image" content="https://jassoncordones.github.io/assets/images/profile.jpg">
     <meta property="og:url" content="https://jassoncordones.github.io.com">
     <meta property="og:type" content="website">
@@ -20,7 +23,8 @@
     <!-- Twitter Card -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Jasson - Engineer Portfolio">
-    <meta name="twitter:description" content="Explore Jasson's experience, skills, and projects in software development, machine learning, and cybersecurity.">
+    <meta name="twitter:description"
+        content="Explore Jasson's experience, skills, and projects in software development, machine learning, and cybersecurity.">
     <meta name="twitter:image" content="https://jassoncordones.github.io/assets/images/profile.jpg">
 
     <script type="application/ld+json">
@@ -42,7 +46,7 @@
           }
         }
         </script>
-        
+
 
 </head>
 
@@ -59,28 +63,28 @@
 
     <section id="about">
         <h2>About Me</h2>
-        <p>Hey, I’m Jasson! I’m all about engineering, project management, data analysis and  software
-            development. I love diving into open-source software because I believe in the power of
-            community-driven projects. Cybersecurity is another passion of mine—I’m constantly learning and sharpening
-            my skills through platforms like TryHackMe to stay ahead of the game.</p>
+        <p>Hey, I’m Jasson Cordones Industrial Egineer and Project Manager. My main interest are engineering, project
+            management, data analysis, software
+            development and cybersecurity.
+            <br>
+        <p>Whether I’m managing a project or coding, I enjoy creating efficient solutions that prioritize user experience,
+            and I’m always looking for ways to keep things clean and minimalist in my designs. </p>
         <br>
-        <p>I enjoy creating efficient solutions that prioritize user experience, and I’m always looking for ways to
-            keep things clean and minimalist in my designs. Whether I’m managing a project or coding, I’m all about
-            collaboration and innovation.</p>
-        <br>
-        <p>Programing Languages: I'm most proficient in C++, Python and Javascript but I also have basic knowledge of C#, Go, R, Rust and other</p>
+        <p>Programing Languages: I'm most proficient in C++, Python and Javascri,pt but I also have basic knowledge of
+            C#, Go, R, Rust and others.</p>
 
     </section>
 
     <section id="eductation">
         <h2>Eductation</h2>
-        
+
     </section>
 
     <section id="courses">
         <h2>Courses Attended</h2>
         <div id="course-counter">Total Courses: <span id="course-count">0</span></div>
         <!-- Search, Filter, and Controls -->
+        <!--TODO: Add theme to controls-->
         <div class="controls">
             <input type="text" id="search-bar" placeholder="Search by name, organization, or skill">
             <select id="filter-skill" aria-label="Skills filter">
@@ -99,15 +103,27 @@
             <!-- Courses will be rendered here -->
         </div>
     </section>
-    
+
 
     <section id="portfolio">
         <h2>Open Source Projects</h2>
-        <ul>
-            <li>Add links</li>
-
-            <!-- Add more skills -->
-        </ul>
+        <div id="projects-counter">Total Courses: <span id="projects-count">0</span></div>
+        <!--TODO: Add theme to controls-->
+        <div class="controls">
+            <input type="text" id="search-bar" placeholder="Search by name, organization, or skill">
+            <select id="filter-skill" aria-label="Skills filter">
+                <option value="">Filter by Skill</option>
+            </select>
+            <button id="toggle-view">Toggle View (Grid/List)</button> <!-- TODO: Fix list-view -->
+            <select id="sort-projects" aria-label="Sort Courses">
+                <option value="name">Sort by Name</option>
+                <option value="organization">Sort by Organization</option>
+                <option value="issue-date">Sort by Issue Date</option>
+            </select>
+        </div>
+        <div id="projects-container" class="grid-view">
+            <!-- Projects will be rendered here -->
+        </div>
     </section>
 
     <section id="contact">
@@ -115,19 +131,20 @@
         <p>Email: <span id="email-protected" class="clickable">click to show</span></p>
         <br>
         <p>Socials:
-            <ul>
-                <li><a href="https://github.com/jassoncordones" target="_blank">GitHub</a></li>
-                <li><a href="https://linkedin.com/in/jassoncordones" target="_blank">LinkedIn</a></li>
-                <li><a href="https://mastodon.social/@jassoncordones" target="_blank">Mastodon</a></li>
-                <li><a href="https://app.pluralsight.com/profile/jasson-cordones-d3" target="_blank">Pluralsight</a></li>
-                <li><a href="https://www.datacamp.com/portfolio/jassonc" target="_blank">Datacamp</a></li>
-                <li><a href="https://tryhackme.com/r/p/Jassonc" target="_blank">Tryhackme</a></li>
-                <li><a href="https://kaggle.com/jassoncordones" target="_blank">Kaggle</a></li>
-            </ul>
+        <ul>
+            <li><a href="https://github.com/jassoncordones" target="_blank">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/jassoncordones" target="_blank">LinkedIn</a></li>
+            <li><a href="https://mastodon.social/@jassoncordones" target="_blank">Mastodon</a></li>
+            <li><a href="https://app.pluralsight.com/profile/jasson-cordones-d3" target="_blank">Pluralsight</a></li>
+            <li><a href="https://www.datacamp.com/portfolio/jassonc" target="_blank">Datacamp</a></li>
+            <li><a href="https://tryhackme.com/r/p/Jassonc" target="_blank">Tryhackme</a></li>
+            <li><a href="https://kaggle.com/jassoncordones" target="_blank">Kaggle</a></li>
+        </ul>
         </p>
     </section>
 
     <footer>
+        <p>This site is made with ❤️ using only <strong>HTML<strong>, <strong>CSS</strong> and <strong>JavaScript</strong>. </p>
         <p>&copy; 2024 Jasson. All rights reserved.</p>
     </footer>
 </body>

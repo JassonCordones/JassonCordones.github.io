@@ -1,0 +1,21 @@
+[{
+    "name": "Leetcode Submissions",
+    "description": "Just a repo to keep track of the leetcode problems I have solved. I do this when bored.",
+    "projectUrl": "https://github.com/JassonCordones/Leetcode-submissions",
+    "type": "Hobbies",
+    "logoUrl": "../assets/images/logos/project-ph.png",
+    "skills": [
+            "C++"
+        ]
+},{
+    "name": "One Piece characters data scraper",
+    "description": "Spider that downloads the info for each of the individual canon characters of the Japanese manga series one piece.",
+    "projectUrl": "https://github.com/JassonCordones/one-piece-character-data-scraper",
+    "type": "Hobbies",
+    "logoUrl": "../assets/images/logos/project-ph.png",
+    "skills": [
+            "python, scrapy"
+        ]
+}
+
+]
