@@ -110,17 +110,13 @@
         <div id="projects-counter">Total Courses: <span id="projects-count">0</span></div>
         <!--TODO: Add theme to controls-->
         <div class="controls">
-            <input type="text" id="search-bar" placeholder="Search by name, organization, or skill">
-            <select id="filter-skill" aria-label="Skills filter">
+            <input type="text" id="projects-search-bar" placeholder="Search by name or skill">
+            <select id="projects-filter-skill" aria-label="Skills filter">
                 <option value="">Filter by Skill</option>
             </select>
-            <button id="toggle-view">Toggle View (Grid/List)</button> <!-- TODO: Fix list-view -->
-            <select id="sort-projects" aria-label="Sort Courses">
-                <option value="name">Sort by Name</option>
-                <option value="organization">Sort by Organization</option>
-                <option value="issue-date">Sort by Issue Date</option>
-            </select>
+            <button id="projects-toggle-view">Toggle View (Grid/List)</button> <!-- TODO: Fix list-view -->
         </div>
+
         <div id="projects-container" class="grid-view">
             <!-- Projects will be rendered here -->
         </div>

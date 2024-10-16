@@ -1,8 +1,8 @@
 document.addEventListener("DOMContentLoaded", function () {
     const projectsContainer = document.getElementById('projects-container');
-    const toggleViewBtn = document.getElementById('toggle-view');
-    const searchBar = document.getElementById('search-bar');
-    const filterSkill = document.getElementById('filter-skill');
+    const toggleViewBtn = document.getElementById('projects-toggle-view');
+    const searchBar = document.getElementById('projects-search-bar');
+    const filterSkill = document.getElementById('projects-filter-skill');
     const sortProjects = document.getElementById('sort-projects');
     const projectsCountElement = document.getElementById('projects-count');
 
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function () {
         
             projectsCountElement.textContent = projects.length;// Update the counter
 
-            // populateSkillFilter(projects);
+            populateSkillFilter(projects);
             renderProjects(projects);
         })
         .catch(error => console.error('Error loading projects:', error));
@@ -57,10 +57,9 @@ document.addEventListener("DOMContentLoaded", function () {
     // Search functionality
     searchBar.addEventListener('input', function () {
         const keyword = searchBar.value.toLowerCase();
-        const filteredProjects = projects.filter(course =>
-            course.name.toLowerCase().includes(keyword) ||
-            course.org.toLowerCase().includes(keyword) ||
-            course.skills.some(skill => skill.toLowerCase().includes(keyword))
+        const filteredProjects = projects.filter(project =>
+            project.name.toLowerCase().includes(keyword) ||
+            project.skills.some(skill => skill.toLowerCase().includes(keyword))
         );
         renderProjects(filteredProjects);
     });
@@ -69,25 +68,9 @@ document.addEventListener("DOMContentLoaded", function () {
     filterSkill.addEventListener('change', function () {
         const selectedSkill = filterSkill.value;
         const filteredProjects = selectedSkill
-            ? projects.filter(course => course.skills.includes(selectedSkill))
+            ? projects.filter(projects => projects.skills.includes(selectedSkill))
             : projects;
         renderProjects(filteredProjects);
-    });
-
-    // Sorting functionality
-    sortProjects.addEventListener('change', function () {
-        const sortBy = sortProjects.value;
-        let sortedProjects = [...projects];
-        
-        if (sortBy === 'name') {
-            sortedProjects.sort((a, b) => a.name.localeCompare(b.name));
-        } else if (sortBy === 'organization') {
-            sortedProjects.sort((a, b) => a.org.localeCompare(b.org));
-        } else if (sortBy === 'issue-date') {
-            sortedProjects.sort((a, b) => new Date(a.issueDate) - new Date(b.issueDate));
-        }
-        
-        renderProjects(sortedProjects);
     });
 
     // Toggle between grid and list view

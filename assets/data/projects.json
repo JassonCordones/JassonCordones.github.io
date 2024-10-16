@@ -14,7 +14,7 @@
     "type": "Hobbies",
     "logoUrl": "../assets/images/logos/project-ph.png",
     "skills": [
-            "python, scrapy"
+            "python", "scrapy"
         ]
 }
 
