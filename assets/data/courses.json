@@ -375,7 +375,7 @@
         "credentialId": "SD03-28062014",
         "credentialUrl": "https://www.datacamp.com/statement-of-accomplishment/course/408b652cccf7ac5672d706003792fd2dfddc4f60",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "../assets/images/logos/org-ph.png"
+        "logoUrl": "../assets/images/logos/qualitygb/logo.png"
     },{
         "name": "Project Management and Execution",
         "org": "Quality Global Business",
@@ -388,7 +388,7 @@
         "credentialId": "DDEP-SD04-07042014",
         "credentialUrl": "https://www.datacamp.com/statement-of-accomplishment/course/408b652cccf7ac5672d706003792fd2dfddc4f60",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "../assets/images/logos/org-ph.png"
+        "logoUrl": "../assets/images/logos/qualitygb/logo.png"
     },{
         "name": "TOEFL iBT",
         "org": "ETS",
@@ -400,7 +400,7 @@
         "credentialId": "N/A",
         "credentialUrl": "",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "../assets/images/logos/org-ph.png"
+        "logoUrl": "../assets/images/logos/ets/ets.svg"
     }, {
         "name": "Intoduction to math prilosophy",
         "org": "Coursera",
