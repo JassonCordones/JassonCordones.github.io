@@ -6,6 +6,17 @@ document.addEventListener("DOMContentLoaded", function () {
     const sortCourses = document.getElementById('sort-courses');
     const courseCountElement = document.getElementById('course-count');
 
+    /**
+    * An array of course objects.
+    *
+    * @typedef Course
+    * @property {string} name - The name of the course.
+    * @property {string} org - The issuing organization of the course.
+    * @property {string} issueDate - The date the course was issued. (format?)
+    * @property {string} expiryDate - The expiry date of the course. (format?)
+    * @property {string[]} skills - An array of skills associated with the course.
+    * @property {string} credentialId - The unique identifier for the course credential.
+    */
     let courses = [];
     
     // Load courses from JSON
@@ -21,7 +32,17 @@ document.addEventListener("DOMContentLoaded", function () {
         })
         .catch(error => console.error('Error loading courses:', error));
 
-    // Render courses
+    /**
+    * Renders a list of courses within the specified container element.
+    *
+    * @param {Course[]} courses - An array of course objects.
+    * @property {string} name - The name of the course.
+    * @property {string} org - The issuing organization of the course.
+    * @property {string} issueDate - The date the course was issued. (format?)
+    * @property {string} expiryDate - The expiry date of the course. (format?)
+    * @property {string[]} skills - An array of skills associated with the course.
+    * @property {string} credentialId - The unique identifier for the course credential.
+    */
     function renderCourses(courses) {
         coursesContainer.innerHTML = '';
         courses.forEach(course => {
@@ -44,7 +65,12 @@ document.addEventListener("DOMContentLoaded", function () {
         });
     }
 
-    // Populate skill filter dropdown
+    /**
+    * Populates the skill filter with options based on the provided courses.
+    *
+    * @param {Course[]} courses - An array of courses.
+    * @property {string[]} skills - An array of skill names associated with the course.
+    */
     function populateSkillFilter(courses) {
         const skills = new Set();
         courses.forEach(course => {
