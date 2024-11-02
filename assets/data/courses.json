@@ -10,7 +10,7 @@
         "credentialId": "N/A",
         "credentialUrl": "https://example.com/credential-1",
         "mediaUrl": "https://example.com/media-1",
-        "logoUrl": "../assets/images/logos/org-ph.png"
+        "logoUrl": "assets/images/logos/linuxfoundation/lf-stacked-white.svg"
     },
     {
         "name": "Academy Accreditation - Databricks Lakehouse Fundamentals",
@@ -42,7 +42,7 @@
         "credentialId": "NRRXGYSUWUEN",
         "credentialUrl": "https://www.coursera.org/account/accomplishments/records/NRRXGYSUWUEN",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "../assets/images/logos/org-ph.png"
+        "logoUrl": "../assets/images/logos/gitlab/gitlab-logo-500.svg"
     },
     {
         "name": "C++17: Beyond the basics",
@@ -126,7 +126,7 @@
         "credentialId": "N/A",
         "credentialUrl": "N/A",
         "mediaUrl": "https://example.com/media-2",
-        "logoUrl": "../assets/images/logos/org-ph.png"
+        "logoUrl": "assets/images/logos/microsoft/Microsoft-logo_rgb_c-wht.png"
     },
     {
         "name": "Ecosistemas de tecnologías. Introducción a las nuevas tecnologías disruptivas",

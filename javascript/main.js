@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
             const courseCard = document.createElement('div');
             courseCard.classList.add('course-card');
             courseCard.innerHTML = `
-            <img src="${course.logoUrl}" alt="Organization Logo" width="64px" height="64px">
+            <img src="${course.logoUrl}" alt="Organization Logo" width="72px" height="72px">
             <div class="course-details">
             <h3>${course.name}</h3>
             <p><strong>Issuing Organization:</strong> ${course.org}</p>

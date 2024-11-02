@@ -14,5 +14,33 @@
             "Project Planning"
         ],
         "program":"assets/files/Plan-de-estudio-Maestria-en-Project-Management.pdf"
+    },
+    {
+        "org": "Universitat Politècnica de València",
+        "startDate": "2018-02-01",
+        "endDate": "2021-05-18",
+        "degree": "Master of Science (M.S.)",
+        "fieldOfStudy": "Project Management",
+        "country": "Santo Domingo, Dominican Republic",
+        "description": "Master of Science in project management focused in providing tools and techniques necessary to successfully manage projects, through the application of the body of knowledge and good management practices.",
+        "skills": [
+            "Coaching",
+            "Project Management",
+            "Microsoft Excel",
+            "Project Planning"
+        ],
+        "program":"assets/files/Plan-de-estudio-Maestria-en-Project-Management.pdf"
+    },
+    {
+        "org": "Instituto Tecnologico de Santo Domingo",
+        "startDate": "2009-08-03",
+        "endDate": "2013-10-12",
+        "degree": "Bachelo of Science (B.S.)",
+        "fieldOfStudy": "Industrial Engineering",
+        "country": "Santo Domingo, Dominican Republic",
+        "description": "Bachelor's degree in Industrial Engineering oriented to the design, improvement, installation and implementation of systems comprising people, equipment, materials, information and energy. The degree is based on specialized knowledge in mathematical, physical and chemical sciences, as well as the use of engineering analysis, design, modeling and simulation methods, along with management and innovation principles.",
+        "skills": ["Warehouse Management","Project Management", "Time Study","Microsoft Excel","Project Planning"
+        ],
+        "program":"404.html"
     }
 ]
