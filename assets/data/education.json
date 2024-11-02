@@ -1,0 +1,18 @@
+[
+    {
+        "org": "Instituto Tecnologico de Santo Domingo",
+        "startDate": "2018-02-01",
+        "endDate": "2021-05-18",
+        "degree": "Master of Science (M.S.)",
+        "fieldOfStudy": "Project Management",
+        "country": "Santo Domingo, Dominican Republic",
+        "description": "Master of Science in project management focused in providing tools and techniques necessary to successfully manage projects, through the application of the body of knowledge and good management practices.",
+        "skills": [
+            "Coaching",
+            "Project Management",
+            "Microsoft Excel",
+            "Project Planning"
+        ],
+        "program":"assets/files/Plan-de-estudio-Maestria-en-Project-Management.pdf"
+    }
+]
