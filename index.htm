@@ -7,9 +7,11 @@
     <meta name="description" content="Personal landing page of Jasson">
     <title>Jasson - Personal Landing Page</title>
     <link rel="stylesheet" href="stylesheets/styles.css">
-    <script src="javascript/email-protection.js" defer></script>
+    <script src="javascript/emailProtection.js" defer></script>
     <script src="javascript/main.js" defer></script>
     <script src="javascript/fetchProjects.js" defer></script>
+    <script src="javascript/fetchParts.js" defer></script>
+    <script src="javascript/fetchEducation.js" defer></script>
 
 
     <!-- Open Graph -->
@@ -45,7 +47,7 @@
             "name": "Independent"
           }
         }
-        </script>
+    </script>
 
 
 </head>
@@ -53,11 +55,11 @@
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HZE44XNKYN"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
 
-  gtag('config', 'G-HZE44XNKYN');
+    gtag('config', 'G-HZE44XNKYN');
 </script>
 
 <body>
@@ -68,6 +70,8 @@
                 <h1>Jasson Cordones</h1>
                 <p>Industrial Engineer | Project Manager |Software Developer | Machine Learning Expert</p>
             </div>
+            <h2><a href="blog/index.html" target="_blank">Blog</a></h2>
+            <h2><a href="cv.html">Curriculum Vitae</a></h2>
         </section>
     </header>
 
@@ -83,7 +87,7 @@
 
     <section id="eductation">
         <h2>Education</h2>
-
+        <div id="education-container"></div>
     </section>
 
     <section id="courses">
@@ -145,10 +149,7 @@
         </p>
     </section>
 
-    <footer>
-        <p>This site is made with ❤️ using only <strong>HTML<strong>, <strong>CSS</strong> and <strong>JavaScript</strong>. </p>
-        <p>&copy; 2024 Jasson. All rights reserved.</p>
-    </footer>
+    <footer id="footer"></footer>
 </body>
 
 </html>
