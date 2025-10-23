@@ -7,6 +7,8 @@
     <meta name="description" content="Personal landing page of Jasson">
     <title>Jasson - Personal Landing Page</title>
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="stylesheets/ee.css">
+    <script src="javascript/ee.js" defer></script>
 
     <!-- <script src="javascript/emailProtection.js" defer></script>
     <script src="javascript/main.js" defer></script>
@@ -94,12 +96,50 @@
                 <span class="absolute left-0 -bottom-1 w-0 h-0.5 bg-white transition-all group-hover:w-full"></span>
             </a>
         </nav>
-    </div>
-    <!-- Footer -->
-    <footer class="w-full text-center text-sm text-gray-500 p-4">
-        © 2025 Jasson Corodnes. All rights reserved.
-    </footer>
+        <!-- Socials -->
+        <div class="flex space-x-6 mt-6">
+            <a href="https://github.com/jassoncordones" target="_blank" class="transition-transform hover:scale-110">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="w-6 h-6" viewBox="0 0 24 24">
+                    <path
+                        d="M12 .5C5.73.5.5 5.73.5 12a11.5 11.5 0 007.86 10.95c.58.1.79-.25.79-.56v-2.05c-3.2.7-3.87-1.55-3.87-1.55a3.05 3.05 0 00-1.28-1.68c-1.05-.72.08-.7.08-.7a2.43 2.43 0 011.77 1.19 2.46 2.46 0 003.36 1 2.46 2.46 0 01.74-1.54c-2.56-.3-5.26-1.28-5.26-5.68A4.44 4.44 0 016.8 7.6a4.13 4.13 0 01.11-3.05s.97-.31 3.18 1.18a10.96 10.96 0 015.8 0C17.1 4.23 18.07 4.55 18.07 4.55a4.13 4.13 0 01.11 3.05 4.44 4.44 0 011.18 3.09c0 4.41-2.71 5.38-5.29 5.67a2.74 2.74 0 01.8 2.12v3.14c0 .31.21.67.8.56A11.5 11.5 0 0023.5 12C23.5 5.73 18.27.5 12 .5z" />
+                </svg>
+            </a>
 
+            <a href="https://linkedin.com/in/jassoncordones" target="_blank"
+                class="transition-transform hover:scale-110 flex items-center" aria-label="LinkedIn">
+                <svg class="w-6 h-6" viewBox="-38.2 -38.2 458.40 458.40" fill="currentColor" aria-hidden="true">
+                    <!-- Clean LinkedIn brand shape + 'in' -->
+                    <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
+                    <g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round" stroke="#CCCCCC"
+                        stroke-width="0.764">
+                    </g>
+                    </g>
+                    <g id="SVGRepo_iconCarrier">
+                        <path style="fill:#ffffff;"
+                            d="M347.445,0H34.555C15.471,0,0,15.471,0,34.555v312.889C0,366.529,15.471,382,34.555,382h312.889 C366.529,382,382,366.529,382,347.444V34.555C382,15.471,366.529,0,347.445,0z M118.207,329.844c0,5.554-4.502,10.056-10.056,10.056 H65.345c-5.554,0-10.056-4.502-10.056-10.056V150.403c0-5.554,4.502-10.056,10.056-10.056h42.806 c5.554,0,10.056,4.502,10.056,10.056V329.844z M86.748,123.432c-22.459,0-40.666-18.207-40.666-40.666S64.289,42.1,86.748,42.1 s40.666,18.207,40.666,40.666S109.208,123.432,86.748,123.432z M341.91,330.654c0,5.106-4.14,9.246-9.246,9.246H286.73 c-5.106,0-9.246-4.14-9.246-9.246v-84.168c0-12.556,3.683-55.021-32.813-55.021c-28.309,0-34.051,29.066-35.204,42.11v97.079 c0,5.106-4.139,9.246-9.246,9.246h-44.426c-5.106,0-9.246-4.14-9.246-9.246V149.593c0-5.106,4.14-9.246,9.246-9.246h44.426 c5.106,0,9.246,4.14,9.246,9.246v15.655c10.497-15.753,26.097-27.912,59.312-27.912c73.552,0,73.131,68.716,73.131,106.472 L341.91,330.654L341.91,330.654z">
+                        </path>
+                    </g>
+                </svg>
+            </a>
+        </div>
+        </main>
+    </div>
+
+    <!-- Footer -->
+     <div class="inline-flex">
+    <footer class="w-full text-center text-sm text-gray-500 p-4">
+        <p>© 2025 Jasson Corodnes. All rights reserved.</p>
+    </footer>
+    <div id="sparkle-container" class="relative inline-flex flex-col items-center">
+        <div id="sparkle-target"
+            class="relative px-6 py-4 select-none text-4xl font-bold transition-transform hover:scale-105">
+            <div id="sparkles" class="absolute inset-0 pointer-events-none"></div>
+        </div>
+
+        <p id="message" class="hidden text-center mt-2 text-sm text-gray-400">
+            Free 🇵🇸 From the river to the sea
+        </p>
+    </div>
 </body>
 
 </html>
